@@ -1,3 +1,5 @@
+'use client'
+
 import { useSupabaseClient } from '@supabase/auth-helpers-react'
 import { compact, debounce, uniqBy } from 'lodash'
 import { useCallback, useMemo, useReducer, useRef } from 'react'
