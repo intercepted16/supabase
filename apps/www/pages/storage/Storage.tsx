@@ -57,7 +57,7 @@ function StoragePage() {
           ]}
           subheader={[
             <>
-              An open source <b>S3 Compatible</b> Object Store, with unlimited scalability, for any
+              An open source <strong className="text-foreground font-normal">S3 Compatible</strong> Object Store, with unlimited scalability, for any
               file type.
             </>,
             'With custom policies and permissions that are familiar and easy to implement.',
