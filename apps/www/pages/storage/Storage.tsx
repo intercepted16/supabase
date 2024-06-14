@@ -56,7 +56,10 @@ function StoragePage() {
             </span>,
           ]}
           subheader={[
-            <>An open source <b>S3 Compatible</b> Object Store, with unlimited scalability, for any file type.</>,
+            <>
+              An open source <b>S3 Compatible</b> Object Store, with unlimited scalability, for any
+              file type.
+            </>,
             'With custom policies and permissions that are familiar and easy to implement.',
           ]}
           image={[
@@ -114,7 +117,8 @@ function StoragePage() {
               <h4 className="h4">Dependable</h4>
 
               <p className="p">
-                Multiple Protocol Support: <br/> S3, TUS (Resumable Uploads), REST<br/>
+                Multiple Protocol Support: <br /> S3, Resumable Uploads and Standard Uploads
+                <br />
                 Enterprise-level scalability.
               </p>
             </div>
